@@ -1,7 +1,7 @@
 [build]
-builder = "nixpacks"
+builder = "NIXPACKS"
 
 [deploy]
-startCommand = "cargo run --release"
+startCommand = "./target/release/eduai-backend"
 restartPolicyType = "ON_FAILURE"
 restartPolicyMaxRetries = 10
